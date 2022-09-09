@@ -26,13 +26,13 @@ function Bookshelf(books = []) {
   };
 }
 
-const button = document.querySelector(".button")
-button.addEventListener("click", () => {
-  let author = document.querySelector(".text-author").value;
-  let title = document.querySelector(".text-title").value;
-  let topic = document.querySelector(".text-topic").value;
+// const button = document.querySelector(".button")
+// button.addEventListener("click", () => {
+//   let author = document.querySelector(".text-author").value;
+//   let title = document.querySelector(".text-title").value;
+//   let topic = document.querySelector(".text-topic").value;
+//   console.log(this.books);
 
-  const results = books.filter(words => words.includes(title))
-  return results;
-  console.log(results);
-})
+//   const results = this.books.filter(word => word.includes(title).value)
+//   return results;
+// })
